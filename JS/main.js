@@ -5,7 +5,7 @@ const clue = document.querySelector ('.js-clue');
 const userCounter = document.querySelector ('.js-counter');
 
 let counter = 0;
-let numberRandom = getRandomNumber ();
+let numberRandom = getRandomNumber();
 
 function getRandomNumber() {
     return Math.ceil(Math.random() * 100);
