@@ -1,6 +1,6 @@
 # Hola!
 ## Este es mi ejercicio para la evaluación intermedia del modulo 2 de Adalab.
-_El ejercicio consiste en crear un programa sencillo en el que la usuaria deberá adivinar un número generado al azar. 
+El ejercicio consiste en crear un programa sencillo en el que la usuaria deberá adivinar un número generado al azar. 
 La usuaria introducirá los valores y, dando al botón "prueba", el programa le irá dando pistas para que pueda adivinarlo.
 Además he incorporado un contador para que pueda saber cuántos intentos ha necesitado para adivininar el número.
 ¡Disfruta del juego!
