@@ -1,21 +1,26 @@
-*{
-   background-color: #fceecd;
+* {
+  color: #0b5b67;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .tittle {
   font-family: "Yusei Magic", sans-serif;
-  color: #0b5b67;
+  font-size: 30px;
 }
-
-
-
-/*colores
-#0B5B67
-#E89292
-#F6BABA
-#FBDD8E
-font-family: 'Roboto', sans-serif;/*
+.button {
+  background-color: #e89292;
+  font-weight: 800;
+  border-radius: 22.5px;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+}
+.counter {
+  color: #e89292;
+  font-size: 24px;
+}
