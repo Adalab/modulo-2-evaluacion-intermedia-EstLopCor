@@ -1,6 +1,11 @@
 *{
    background-color: #fceecd;
 }
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .tittle {
   font-family: "Yusei Magic", sans-serif;
   color: #0b5b67;
