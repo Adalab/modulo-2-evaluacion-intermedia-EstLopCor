@@ -2,6 +2,7 @@
   color: #0b5b67;
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  background-color: aliceblue;
 }
 .container {
   display: flex;

@@ -17,11 +17,21 @@ function handlerCounter (){
     userCounter.innerHTML = counter;
     
 }
+function paint (){
+    let painting = 'clue.innerHTML=';
+}
+console.log (paint());
+
+function stopDefAction(evt) {
+    evt.preventDefault();
+  }
 
 function handlerButton (){
     let valueNumber = parseInt(userNumber.value);
     if (valueNumber <= 0 || valueNumber >= 101) {
-        clue.innerHTML ='Debes introducir un número entre 1 y 100';
+        evt.preventDefault();
+        alert("Debes introducir un número entre 1 y 100");
+    //   clue.innerHTML = 'Debes introducir un número entre 1 y 100';
     } else if (valueNumber === numberRandom){
         clue.innerHTML ='Enhorabuena, has ganado campeona!!!';
     } else if (valueNumber > numberRandom) {
